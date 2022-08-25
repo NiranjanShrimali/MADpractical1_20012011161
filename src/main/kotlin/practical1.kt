@@ -1,13 +1,13 @@
 fun main(){
-    val value1:Int = 22
-    val value2: Float = 1.5f
-    var value3 :Char= 'T'
-    val value4 :String ="Sendhav Nikhar"
-    val value5 :Boolean = true
-    val value6:Double = 90.89
-    val value7 :Long = 38298944
-    val value8:Short = -2
-    val value9 :Byte = 127
+    val value1 = 22
+    val value2 = 1.5f
+    var value3 = 'T'
+    val value4 ="Niranjan Shrimali"
+    val value5 = true
+    val value6 = 90.89
+    val value7 = 38298944
+    val value8 = -2
+    val value9 = 127
 
 
     println("Integer Value : " +value1)

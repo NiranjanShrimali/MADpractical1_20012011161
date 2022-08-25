@@ -1,8 +1,9 @@
-fun main(){
+fun main() {
+    println("Enter the number")
+    val x = readLine()!!.toInt()
 
-    println("Enter value :");
-    var c=readLine()!!.toInt()
-
-    var d="$c*(9/5)+32";
-    println("f=$c*(9/5)+32");
-}//F = C× (9/5)+32
+    if (x % 2 == 0)
+        println("$x is even number")
+    else
+        println("$x is odd number")
+}

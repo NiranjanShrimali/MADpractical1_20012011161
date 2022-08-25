@@ -7,40 +7,39 @@ fun main(args:Array<String>){
 
    */
 
-    println("Student Enrollment No")
+    print("Student Enrollment No.:")
     val eno = readLine()!!.toLong()
 
-    println("Student Name")
+    print("Student Name:")
     val name= readLine()!!.toString()
 
-    println("Student Branch")
+    print("Student Branch:")
     val branch= readLine()!!.toString()
 
-    println("Student Class")
+    print("Student Class:")
     val c= readLine()!!.toString()
 
-    println("Student Batch ")
+    print("Student Batch:")
     val batch = readLine().toString()
 
-    println("Student Collage name ")
+    print("Student College name:")
     val cname= readLine()!!.toString()
 
-    println("Student University name")
+    print("Student University name:")
     val uname= readLine()!!.toString()
 
-    println("Student age")
+    print("Student age:")
     val age= readLine()!!.toInt()
 
 
-    println("********")
-    println("Enrollment No :: "+eno)
-    println("Name ::"+name)
-    println("age ::"+age)
-    println("Branch :: "+branch)
-    println("Class :: "+c)
-    println("Batch :: "+batch)
-    println("Collage name ::"+cname)
-    println("University name :: "+uname)
-
-
+    println("********************************")
+    println("Student's Data:")
+    println("Enrollment No.: "+eno)
+    println("Name: "+name)
+    println("age: "+age)
+    println("Branch: "+branch)
+    println("Class: "+c)
+    println("Batch: "+batch)
+    println("College name:"+cname)
+    println("University name: "+uname)
 }

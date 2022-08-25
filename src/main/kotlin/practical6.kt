@@ -9,7 +9,12 @@ fun main(){
     val multy = number1*number2*number3
     val divition = number1/number2
 
-    println("1.Addition / 2. Substraction /3.Multiplication /4. Divition")
+    println("Addition of $number1, $number2, $number3 is "+add)
+    println("Substraction of $number1, $number2, $number3 is "+sub)
+    println("Multiply of $number1, $number2, $number3 is "+multy)
+    println("divition of $number2, $number3 is "+divition)
+
+  /*  println("1.Addition / 2. Substraction /3.Multiplication /4. Divition")
 
     val value= readLine()!!.toInt()
     when(value){
@@ -22,6 +27,8 @@ fun main(){
 
 
     }
+
+   */
 }
 /*
 fun main(){

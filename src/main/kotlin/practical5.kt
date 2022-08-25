@@ -1,5 +1,5 @@
 fun main(){
-    println("please Enter the number bitween 1-12")
+    print("Enter Month Number:")
     val number = readLine()!!.toInt()
 
     when(number){
